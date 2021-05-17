@@ -1,0 +1,207 @@
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;  
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+/*------------------------------------------------------------------------------------code---------------------------------*/
+
+.wrapper{
+    height:700px;
+    width: 1536px;
+    }
+
+.logo img {
+    float: left;
+    height: 130px;
+}
+section{
+    height: 920px;
+    width: 1536px;
+    background-color: rgb(0, 0, 0);
+}
+section .home_img{
+    margin-top: 10%;
+    background-image: url(images/1.jpg);
+    height: 1000px;
+}
+
+
+
+.logo h1 {
+      float: left;
+      padding-left: 25%;
+      font: bolder;
+      text-align: center;
+      text-decoration-line: underline;
+      
+     
+      
+  }
+
+  h2{
+      color: white;
+      font-style: oblique;
+      text-decoration-line: underline;
+      padding-bottom: 3%;
+
+  }
+
+  .box p {
+     
+      color: whitesmoke;
+      font-size: 20px;
+      padding-left: 7%;
+      padding-right: 7%;
+      font: bolder;
+  }
+
+  .box {
+      height: 600px ;
+      width: 1000px;
+      margin: auto;
+      background-color: black;
+      opacity: 0.87;
+      padding-bottom: 0%;
+      
+  }
+  footer {
+      background-color: black;
+      color: blanchedalmond;
+      padding-bottom: 10px;
+      text-align-last: center;
+  }
+
+
+
+  /*________________________________________STUDENT LOGIN__________________________________________________________________________________________*/
+
+  .login_img {
+
+    height: 1080px;
+    width: 1536px;
+    
+    background-image: url(images/student.jpg);
+    background-repeat: no-repeat;
+    
+
+
+  }
+  
+  .login{
+    height: 430px ;
+    width: 500px;
+    background-color: black;
+    align-self: center;
+    margin: auto;
+    opacity: 0.87;
+  } 
+
+form .log {
+    padding-left: 20%;
+}
+
+/*-----------------------------------------------------------------------------------------------------------------------------------REGUSTRATION------------------------------------------------------------------------------------------*/
+
+.regis{
+    height: 600px ;
+    width: 500px;
+    background-color: black;
+    align-self: center;
+    margin: auto;
+    opacity: 0.87;
+}
+form .sign {
+    padding-left: 20%;
+}
+
+
